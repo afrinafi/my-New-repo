@@ -6,8 +6,7 @@ function f1 ()
 function f2 ()
 {
         echo "last 10 log messages shows";
-name=$
-        sudo grep error  /var/log/messages
+        sudo grep $input /var/log/messages
 }
 function f3 ()
 {
