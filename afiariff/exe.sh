@@ -11,7 +11,7 @@ function f2 ()
 function f3 ()
 {
         echo " show the disk usage of the file";
-        du /home/ec2-user/ex.sh
+        du /home/ec2-user/exe.sh
 }
 function f4 ()
 {
