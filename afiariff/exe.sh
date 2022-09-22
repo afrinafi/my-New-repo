@@ -6,7 +6,7 @@ function f1 ()
 function f2 ()
 {
         echo "last 10 log messages shows";
-        sudo grep $input /var/log/messages
+        sudo grep systemd: /var/log/messages
 }
 function f3 ()
 {
